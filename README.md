@@ -7,10 +7,10 @@
 
 ## Cell Formatting 
 Each cell of the file must be formatted like so in order for the program to work. 
-'''
+```
 Introduction to Information Technology	21729	CS 201	10	3	14:30	16:00	TR	Ayers Hall 357	Lecture	Matthew R Burns
 Introduction to Information Technology	21730	CS 201	11	3	World Wide Web	Thomas D White				
-'''
+```
 ## Overview of the project
 This is a program written in java which uses the Model-View-Control design pattern. It takes in a tab seperated value file and creates different class objects out of the information given. This file is included in the repository and is titled `project1input.csv`. It then creates different class objects out of the information and adds them to a list of total courses. At the menu, you will see the following screen.
 ```
