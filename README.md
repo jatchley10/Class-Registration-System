@@ -51,7 +51,7 @@ private int selection;
 ## Control
 The control is where we are handling all of the input from the main menu. It runs a while loop that does not terminate until the user selects 4 from the main menu to exit the program. Here is an example of how the final program works below.
 
-``
+```
 1) Search Courses
 2) Register for Course
 3) View Trial Schedule
