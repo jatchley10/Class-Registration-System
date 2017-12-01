@@ -30,7 +30,25 @@ The program reads in the file and splits it on the `\t` character. It then tests
 The model is where we do all of the file input. It contains the `readCourseData()` function which reads in the file and creates objects out of the different classes. Each time it creates an object, it adds it to an ArrayList of potential courses. 
 
 ## View
+The view contains the code pertaining to the main menu. It only has one function which returns an integer for the user's selection. It sends this message to the controller in order to operate the main menu.
+```
+private int selection;
+    public int mainMenu(){
+        System.out.println("1. Search Courses");
+        System.out.println("2. Register for Course");
+        System.out.println("3. View Trial Schedule");
+        System.out.println("4. Quit");
+        System.out.println("Your choice? ");
+        Scanner choice = new Scanner(System.in);
+        selection = choice.nextInt();
+        return selection;
+        
+        
+    }
+
+```
 
 
 
-##Control
+## Control
+
